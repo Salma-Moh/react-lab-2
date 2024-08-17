@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CounterComponent = () => {
     const [count, setCount] = useState(0);

@@ -9,8 +9,8 @@ function App() {
     <Router>
       <div className="App">
         <Counter />
-        <FAQ />
         <CounterWithEffect />
+        <FAQ />
       </div>
     </Router>
   );

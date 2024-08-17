@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function FAQItem({ question, answer }) {
     const [open, setOpen] = useState(false);
-
     return (
         <Card className="mb-3">
             <Card.Header className="d-flex justify-content-between align-items-center">
