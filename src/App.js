@@ -10,8 +10,8 @@ function App() {
 
       <div className="App">
         <Counter />
-        <CounterWithEffect />
         <FAQ />
+        <CounterWithEffect />
       </div>
     </Router>
   );
